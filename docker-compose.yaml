@@ -1,0 +1,6 @@
+version: "2"
+services:
+  packet-forwarder:
+    build: ./packet-forwarder
+    privileged: true
+    restart: always
